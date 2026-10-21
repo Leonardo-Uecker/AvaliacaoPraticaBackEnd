@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.8" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="3"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="btnshift" min="-2" pref="76" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btnZ" min="-2" pref="34" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="btnespaço" min="-2" pref="393" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="btnX" min="-2" pref="34" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                              <Component id="btnC" min="-2" pref="34" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="btnV" min="-2" pref="34" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnB" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnN" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnM" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnvirgula" min="-2" pref="34" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="btnponto" min="-2" pref="34" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="btninterogação" min="-2" pref="38" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="btnsetaotolado" min="-2" pref="42" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="btnsetabaixo" min="-2" pref="42" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="btnsetalado" min="-2" pref="42" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="setacima" min="-2" pref="42" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel1" min="-2" pref="440" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="btntil" min="-2" pref="34" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btn1" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btn3" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btn2" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="btn4" min="-2" pref="42" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="btn5" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btn6" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btn7" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btn8" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btn9" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btn0" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnmenos" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnigual" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="btnapagar" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="btntab" min="-2" pref="58" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="btnQ" min="-2" pref="22" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="btnW" min="-2" pref="39" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="btnE" min="-2" pref="40" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="btnR" min="-2" pref="34" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="btnT" min="-2" pref="34" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="btnY" min="-2" pref="34" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="btnU" min="-2" pref="40" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="btnI" min="-2" pref="34" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="btnO" min="-2" pref="40" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="btnP" min="-2" pref="40" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="btnabrechave" min="-2" pref="34" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="btnfechachave" min="-2" pref="34" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="btnbarra" min="-2" pref="34" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                                  <Component id="btncaps" min="-2" pref="58" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="btnA" min="-2" pref="40" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="btnS" min="-2" pref="34" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                                  <Component id="btnD" min="-2" pref="40" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="btnF" min="-2" pref="34" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="btnG" min="-2" pref="40" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="btnH" min="-2" pref="40" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="btnJ" min="-2" pref="34" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="btnK" min="-2" pref="34" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="btnL" min="-2" pref="34" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="btndoisponto" min="-2" pref="34" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="btnasento" min="-2" pref="34" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="btnenter" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="0" pref="1" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" pref="16" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="184" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="btntil" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btn1" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btn2" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btn3" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btn4" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btn5" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btn6" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btn7" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btn8" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btn9" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btn0" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btnapagar" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btnmenos" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="btntab" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="btnR" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="btnT" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="btnY" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="btnU" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="btnI" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="btnO" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="btnP" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="btnabrechave" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="btnbarra" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="btnfechachave" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="btnW" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="btnE" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                              <Component id="btnQ" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="btncaps" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btnA" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btnD" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btnS" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btnF" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btnG" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btnH" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btnJ" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btnK" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btnL" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btndoisponto" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btnasento" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btnenter" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="btnshift" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btnZ" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btnC" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btnX" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btnV" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btnB" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btnN" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btnM" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btnvirgula" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btnponto" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="setacima" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btninterogação" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="btnespaço" alignment="3" pref="31" max="32767" attributes="0"/>
+                          <Component id="btnsetabaixo" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btnsetalado" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btnsetaotolado" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="btnigual" min="-2" pref="30" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="btntil">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="4"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="5"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="6"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="7"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="8"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="9"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn0">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnmenos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnigual">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="="/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnapagar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="backspace"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnO">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="o"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnOActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnP">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="p"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnabrechave">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="["/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnbarra">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="\u005c" containsInvalidXMLChars="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnbarraActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btntab">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="tab"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btntabActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnQ">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="q"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnE">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="e"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnW">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="w"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnR">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="r"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnT">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="t"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnY">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="y"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnU">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="u"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnI">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="i"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnfechachave">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="]"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnfechachaveActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnD">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="d"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnS">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="s"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnF">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="f"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnG">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="g"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnH">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="h"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnJ">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="j"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnK">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="k"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnKActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="l"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btndoisponto">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=":"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnasento">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&apos;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btncaps">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="caps"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnenter">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="enter"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnenterActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnA">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="a"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnX">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="x"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnV">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="v"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnB">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="b"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnN">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="n"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnM">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="m"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnvirgula">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=","/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnponto">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btninteroga&#xe7;&#xe3;o">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnshift">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="shift"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnZ">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="z"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnC">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="c"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnespa&#xe7;o">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnsetabaixo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="v"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnsetabaixoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="setacima">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="^"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="setacimaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnsetalado">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnsetaotolado">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnsetaotoladoActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Type som text using your keyboard. The keys you press will be highlighted and the text be displayed."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Note: clicking the buttons with your mouse will not perform any action. "/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
